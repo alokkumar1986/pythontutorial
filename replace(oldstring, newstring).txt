@@ -1,0 +1,37 @@
+replace(oldstring, newstring)
+
+
+s = 'Hello Bhubaneswar'
+print(s.replace('Bhubaneswar', 'Aptech')) //Hello Aptech
+
+
+split()
+==========
+
+s = 'This is a string'
+s1 = s.split()  
+for i in s1:
+   print(i)
+
+dt = '20-05-2024'
+dt1 = dt.split('-') 
+for n in dt1:
+  print(n)
+
+
+split(separator, maximum no of split)
+
+join()
+=============
+s = 'Aptech'
+print(s.join('Learning'))
+
+t = ('John', 'Abraham', 'Bipasa')
+print('#'.join(t))
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+Character classes :
+[abc] = 
+[^abc] = 
+[a-z] = lower case character
+[A-z] = upper
+[a-zA-Z] = any character
+[0-9] = 
+[a-zA-Z0-9]
+[^a-zA-Z0-9] =

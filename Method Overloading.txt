@@ -1,0 +1,13 @@
+Method Overloading:
+It happens in same class. Class have same method with different types argument 
+Method Overriding:
+It happens in parent and child class, In both the class, we have same function with same signature.
+
+
+==Abstraction & encapsulation
+
+==Decorators and generator
+
+==Doubt clear
+
+==MySQL in Python

@@ -1,0 +1,68 @@
+if elif else :
+
+if condition1:
+   action1
+elif condition2:
+   action2
+elif condition3:
+   action3
+else : 
+   action4
+
+write a program to find which vowel entered from keyboard ?
+
+================================
+sequence : list, tuple, range(), dict, string
+
+for i in sequence:
+    print(i)
+
+list = [1, 25, 35, 45, 55]
+for i in list:
+   print(i)  #1 25 35 45 55
+
+Write a program to print the following pattern?
+1)
+*
+**
+***
+****
+*****
+******
+
+2) 
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+Write a program to find odd numbers between 1 and 100?
+Write a program to find prime numbers between 1 and 100?
+===============================================
+while condition:
+     body
+
+i = 1
+while i<100:
+  print(i)
+  i+=1
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+ 
+
+
+
+
+

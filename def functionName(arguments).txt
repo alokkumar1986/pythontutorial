@@ -1,0 +1,51 @@
+def functionName(arguments):
+    #body
+
+
+a = 10
+b = 20
+print('Sum is : ' , a+b) 
+
+a = 20
+b = 30 
+print('Sum is : ', a+b)
+=============================
+def calSum(a, b):
+    print('sum is : ', a+b)
+
+calSum(10, 20)
+calSum(20, 30)
+============================
+def (mandatory)
+return (optional)
+
+====================
+def calSum(a, b):
+   return a+b
+print('Sum is : ', calSum(10, 20));
+
+=====================================
+
+def fun1(a, b, c=10):
+    print('a is :', a)
+    print('b is :', b)
+    print('c is :', c)
+
+fun1(10, 20, 30)
+fun1(30, 40)
+
+================
+def fun2(*n):
+   for i in n:
+     print(i)
+fun2(2)
+fun2(2, 7, 5, 6, 4)
+
+
+
+
+
+
+
+
+

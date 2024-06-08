@@ -1,0 +1,90 @@
+Exception handling
+
+try : block of code for error
+except : handle the error
+else : execute a block when there is no error
+finally : execute a block of code irrespective of result of try or except block
+
+====================================================
+try :
+ print(x)
+except :
+ print('x is not defined')
+else: 
+ print('x is define and used')
+finally : 
+ print('x is define and used in finally')
+====================================================
+
+multiple except block:
+
+try :
+  print(x)
+except NameError:
+  print('x is not defined')
+except :
+  print('x is not defined')
+
+=========================================
+exception raised automatically
+How to raise an exception manually?
+
+x = -1
+if x<0:
+  raise Exception('X can not be less than 0')
+
+=====================================
+
+Nested Try block
+================
+
+try :
+  f = file.open('demo.txt')
+  try :
+    f.write('Lorem epsum')
+  except:
+    print('file is not found')
+  finally :
+    f.close()
+except :
+  print('Something went wrong')
+
+======================================
+File Handling :
+
+open()  
+ 
+open(filename, mode) 
+  
+filename : filepath with name
+mode : 
+
+
+
+write()
+append()
+read()
+readLine()
+close()
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
