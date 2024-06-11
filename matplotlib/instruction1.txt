@@ -1,0 +1,136 @@
+Microsoft Windows [Version 10.0.22631.3593]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ISU_375>npm --version
+6.14.8
+
+C:\Users\ISU_375>python --vrsion
+unknown option --vrsion
+usage: python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+C:\Users\ISU_375>python --version
+Python 3.12.2
+
+C:\Users\ISU_375>pip --version
+pip 24.0 from C:\Users\ISU_375\AppData\Local\Programs\Python\Python312\Lib\site-packages\pip (python 3.12)
+
+C:\Users\ISU_375>pip list
+Package                   Version
+------------------------- -----------
+awscli                    1.32.95
+botocore                  1.34.95
+colorama                  0.4.6
+docutils                  0.16
+jmespath                  1.0.1
+mysql                     0.0.3
+mysql-connector-python-rf 2.2.2
+mysqlclient               2.2.4
+numpy                     1.26.4
+pip                       24.0
+pyasn1                    0.6.0
+python-dateutil           2.9.0.post0
+PyYAML                    6.0.1
+rsa                       4.7.2
+s3transfer                0.10.1
+six                       1.16.0
+urllib3                   2.2.1
+
+C:\Users\ISU_375>pip install matplotlib
+Collecting matplotlib
+  Downloading matplotlib-3.9.0-cp312-cp312-win_amd64.whl.metadata (11 kB)
+Collecting contourpy>=1.0.1 (from matplotlib)
+  Downloading contourpy-1.2.1-cp312-cp312-win_amd64.whl.metadata (5.8 kB)
+Collecting cycler>=0.10 (from matplotlib)
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib)
+  Downloading fonttools-4.53.0-cp312-cp312-win_amd64.whl.metadata (165 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 165.5/165.5 kB 1.4 MB/s eta 0:00:00
+Collecting kiwisolver>=1.3.1 (from matplotlib)
+  Downloading kiwisolver-1.4.5-cp312-cp312-win_amd64.whl.metadata (6.5 kB)
+Requirement already satisfied: numpy>=1.23 in c:\users\isu_375\appdata\local\programs\python\python312\lib\site-packages (from matplotlib) (1.26.4)
+Collecting packaging>=20.0 (from matplotlib)
+  Downloading packaging-24.0-py3-none-any.whl.metadata (3.2 kB)
+Collecting pillow>=8 (from matplotlib)
+  Downloading pillow-10.3.0-cp312-cp312-win_amd64.whl.metadata (9.4 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib)
+  Downloading pyparsing-3.1.2-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\isu_375\appdata\roaming\python\python312\site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in c:\users\isu_375\appdata\roaming\python\python312\site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+Downloading matplotlib-3.9.0-cp312-cp312-win_amd64.whl (8.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.0/8.0 MB 4.8 MB/s eta 0:00:00
+Downloading contourpy-1.2.1-cp312-cp312-win_amd64.whl (189 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 189.9/189.9 kB 3.8 MB/s eta 0:00:00
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.53.0-cp312-cp312-win_amd64.whl (2.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 4.1 MB/s eta 0:00:00
+Downloading kiwisolver-1.4.5-cp312-cp312-win_amd64.whl (56 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.0/56.0 kB ? eta 0:00:00
+Downloading packaging-24.0-py3-none-any.whl (53 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.5/53.5 kB 2.7 MB/s eta 0:00:00
+Downloading pillow-10.3.0-cp312-cp312-win_amd64.whl (2.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.5/2.5 MB 3.6 MB/s eta 0:00:00
+Downloading pyparsing-3.1.2-py3-none-any.whl (103 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.2/103.2 kB 5.8 MB/s eta 0:00:00
+Installing collected packages: pyparsing, pillow, packaging, kiwisolver, fonttools, cycler, contourpy, matplotlib
+Successfully installed contourpy-1.2.1 cycler-0.12.1 fonttools-4.53.0 kiwisolver-1.4.5 matplotlib-3.9.0 packaging-24.0 pillow-10.3.0 pyparsing-3.1.2
+
+C:\Users\ISU_375>pip list
+Package                   Version
+------------------------- -----------
+awscli                    1.32.95
+botocore                  1.34.95
+colorama                  0.4.6
+contourpy                 1.2.1
+cycler                    0.12.1
+docutils                  0.16
+fonttools                 4.53.0
+jmespath                  1.0.1
+kiwisolver                1.4.5
+matplotlib                3.9.0
+mysql                     0.0.3
+mysql-connector-python-rf 2.2.2
+mysqlclient               2.2.4
+numpy                     1.26.4
+packaging                 24.0
+pillow                    10.3.0
+pip                       24.0
+pyasn1                    0.6.0
+pyparsing                 3.1.2
+python-dateutil           2.9.0.post0
+PyYAML                    6.0.1
+rsa                       4.7.2
+s3transfer                0.10.1
+six                       1.16.0
+urllib3                   2.2.1
+
+C:\Users\ISU_375>pip list matplotlib
+Package                   Version
+------------------------- -----------
+awscli                    1.32.95
+botocore                  1.34.95
+colorama                  0.4.6
+contourpy                 1.2.1
+cycler                    0.12.1
+docutils                  0.16
+fonttools                 4.53.0
+jmespath                  1.0.1
+kiwisolver                1.4.5
+matplotlib                3.9.0
+mysql                     0.0.3
+mysql-connector-python-rf 2.2.2
+mysqlclient               2.2.4
+numpy                     1.26.4
+packaging                 24.0
+pillow                    10.3.0
+pip                       24.0
+pyasn1                    0.6.0
+pyparsing                 3.1.2
+python-dateutil           2.9.0.post0
+PyYAML                    6.0.1
+rsa                       4.7.2
+s3transfer                0.10.1
+six                       1.16.0
+urllib3                   2.2.1
+
+C:\Users\ISU_375>
