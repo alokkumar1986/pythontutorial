@@ -1,7 +1,18 @@
 import numpy as np
 
-a = np.array([20, 30, 40])
+a = np.array([20, 30, 40])  
 
-b = np.var(a)
+# b = np.var(a)
 
-print(b.round(3))
+# c = np.std(a)
+
+# d = b**.5
+
+# print(round(c, 2))
+# print(round(d, 2))
+# print(b.round(3))
+
+print(np.amin(a))
+print(np.amax(a))
+
+
